@@ -1,0 +1,45 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  background-image: url(./images/casino-table.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.start-button,
+.new-card {
+  color: #016f32;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  background: goldenrod;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.start-button:hover,
+.new-card:hover {
+  opacity: 0.9;
+}
+
+.start-button:active,
+.new-card:active {
+  background: rgb(214, 208, 33);
+}
