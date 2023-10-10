@@ -3,11 +3,11 @@ const player = {
   chips: 1000,
 };
 
-const allCards = [];
-const sum = 0;
-const hasBlackJack = false;
-const isAlive = false;
-const message = "";
+let allCards = [];
+let sum = 0;
+let hasBlackJack = false;
+let isAlive = false;
+let message = "";
 const startButton = document.querySelector(".start-button");
 const newCardButton = document.querySelector(".new-card");
 const messageEl = document.getElementById("message-el");
