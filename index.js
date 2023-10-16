@@ -23,7 +23,7 @@ function startGame() {
   const secondCard = getRandomCard();
   allCards = [firstCard, secondCard];
   sum = firstCard + secondCard;
-
+  hasBlackJack = false;
   dealHand();
 }
 
